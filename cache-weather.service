@@ -1,0 +1,6 @@
+[Unit]
+Description=Cache Weather Data
+
+[Service]
+ExecStart=/usr/bin/fetch-weather.sh
+

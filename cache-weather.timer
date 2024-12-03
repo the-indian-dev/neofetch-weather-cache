@@ -1,0 +1,10 @@
+[Unit]
+Description=Run Weather Fetch Every Hour
+
+[Timer]
+OnBootSec=2min
+OnCalendar=hourly
+
+[Install]
+WantedBy=timers.target
+

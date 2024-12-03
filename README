@@ -1,0 +1,13 @@
+Neofetch Weather Cache
+----------------------
+I wanted to cache my weather data so I don't have to send a new request everytime I open terminal. 
+
+I implmented it by:
+- Using systemd timer which curls the wttr.in api every hour
+- Then the output is written to my file in my home directory
+- print output ???
+
+to install in ur system:
+- modify city name from my Bhubaneswar to your city
+- change user name to ur username
+- install cache-weather.service and cache-weather.timer in systemd
