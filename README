@@ -1,5 +1,6 @@
 Neofetch Weather Cache
 ----------------------
+My personal config files for neofetch and stuff.
 I wanted to cache my weather data so I don't have to send a new request everytime I open terminal. 
 
 I implmented it by:
